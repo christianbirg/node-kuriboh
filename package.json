@@ -1,14 +1,23 @@
 {
   "name": "kuriboh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The next gen serverside print service in NodeJS",
   "author": "Christian Birg <chris@incoqnito.de>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": true,
+  "bin": {
+    "kuriboh": "lib/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/incoqnito/node-kuriboh/issues"
+  },
+  "homepage": "https://github.com/incoqnito/node-kuriboh#readme",
   "license": "ISC",
   "dependencies": {
-    "commander": "2.9.0"
+    "commander": "2.9.0",
+    "phantom": "^2.1.7"
   }
 }
