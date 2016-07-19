@@ -1,6 +1,6 @@
 {
   "name": "kuriboh",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "The next gen serverside print service in NodeJS",
   "author": "Christian Birg <chris@incoqnito.de>",
   "main": "index.js",
